@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas3a form HTML</title>
+</head>
+<body>
+    <form name="Data_produk" method="POST" action="">
+        <table border="1" align="center" cellpadding="15" cellspacing="0" width="35%">
+            <thead >
+                <tr bgcolor="DimGray" >
+                    <th colspan="2">Daftar data Produk</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="30%"><label for="nama_produk">Nama Produk</label></td>
+                    <td>
+                        <input type="text" name="nama_produk" value="" placeholder="Masukan Nama Produk"
+                        size="40" maxlength="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"><label for="jenis_produk">Jenis Produk</label></td>
+                    <td>
+                        <select name="jenis_produk">
+                            <option value="">--Pilih Jenis Produk--</option>
+                            <option value="elektronik">Elektronik</option>
+                            <option value="perabotan">Perabotan</option>
+                            <option value="makanan">Makanan</option>
+                            <option value="minuman">Minuman</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="harga">Harga</label></td>
+                    <td>
+                        <input type="text" name="harga" value="" placeholder="Masukan Harga Produk" size="40">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"><label for="stok">Stok</label></td>
+                    <td>
+                        <input type="number" name="stok" min="1" max="100" placeholder="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"><label for="photo"> Photo</label></td>
+                    <td>
+                        <input type="file" name="photo">
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr bgcolor="DimGray" >
+                    <th colspan="2">
+                        <input type="submit" name="proses" value="Kirim" >
+                        <input type="reset" name="unproses" value="Batal" >
+                    </th>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
