@@ -1,0 +1,26 @@
+body{
+    margin: auto;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-color: green;
+    margin: auto;
+  }
+
+  table{
+
+    width: 55%;
+  }
+
+  td{
+    background-color: yellow;
+  }
+
+  th{
+    background-color: greenyellow;
+
+  }
+ 
+
